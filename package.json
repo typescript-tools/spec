@@ -1,0 +1,27 @@
+{
+  "name": "@typescript-tools/spec",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier --list-different .",
+    "format:fix": "prettier --write .",
+    "lint-staged": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typescript-tools/spec.git"
+  },
+  "author": "Eric Crosson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/typescript-tools/spec/issues"
+  },
+  "homepage": "https://github.com/typescript-tools/spec#readme",
+  "pre-commit": "lint-staged",
+  "devDependencies": {
+    "@ericcrosson/prettier-config": "1.0.0",
+    "lint-staged": "12.3.7",
+    "pre-commit": "1.2.2",
+    "prettier": "2.6.0"
+  }
+}

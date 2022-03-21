@@ -58,7 +58,7 @@ adversary's remote package instead of using the monorepo's locally defined packa
 
 We can see from the description of the flag that lerna will not fall victim to any
 dependency confusion attacks. But what about when we're not using lerna? For example,
-after we've published the package to our local registry and are installing it in
+after we've published the package to our registry and are installing it in
 another project, or inside a docker build.
 
 We need a solution that guarantees `npm` will always install the intended version of

@@ -22,6 +22,6 @@
     "@ericcrosson/prettier-config": "1.0.0",
     "lint-staged": "12.3.7",
     "pre-commit": "1.2.2",
-    "prettier": "2.6.0"
+    "prettier": "2.6.1"
   }
 }

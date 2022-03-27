@@ -70,8 +70,9 @@ the dependency declares.
 ![`pin` updating `my-app`'s package.json to depend on `my-library`'s declared version number](res/example-pin.png)
 
 The `typescript-tools` offer a `pin` command to update the version number of internal
-dependencies in every `package.json` file. We can hook this command into the monorepo's
-bootstrap workflow such that `pin` is always invoked before dependencies are installed,
+dependencies in every `package.json` file. Dependencies will be pinned to exact
+versions, not semver ranges. We can hook this command into the monorepo's bootstrap
+workflow such that `pin` is always invoked before dependencies are installed,
 minimizing the number of developer surprises by making the relationship between
 child and parent packages explicit.
 

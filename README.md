@@ -79,7 +79,7 @@ Invoke `pin` before `lerna bootstrap`. For example, if you invoke `lerna bootstr
 }
 ```
 
-It is also recommended to use `--force-local`[^2] and `--reject-cycles`[^3]:
+It is also recommended to use `--force-local`[^2] and `--reject-cycles`[^3]. You can configure this in `lerna.json`:
 
 ```json
 {
